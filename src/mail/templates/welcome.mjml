@@ -1,0 +1,15 @@
+<mj-section>
+  <mj-column>
+    <mj-text font-size="20px" font-weight="bold">
+      Welcome to BSO Space 🚀
+    </mj-text>
+
+    <mj-text>
+      Hello {{name}}, your account is ready.
+    </mj-text>
+
+    <mj-button href="{{link}}">
+      Go to Dashboard
+    </mj-button>
+  </mj-column>
+</mj-section>
