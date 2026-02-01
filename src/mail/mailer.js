@@ -23,7 +23,7 @@ export async function sendMail({
   const html = renderMjml(templateName, data);
 
   return transporter.sendMail({
-    from: `"BSO Mail Sender System" <no-reply@bsospace.com>`,
+    from: `"BSO Mail Sender System" <${process.env.MAIL_USER}>`,
     to,
     subject,
     html,
